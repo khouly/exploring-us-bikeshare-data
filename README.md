@@ -9,7 +9,7 @@
 - [Exploratory Data Analysis](#eda)
   - [Statistics](#statistics)
   - [Visualizations](#visualizations)
-- [Conclusions](#conclusions)
+- [Future Enhancments](#future_enhancments)
 
 <a id='intro'></a>
 ## Introduction
@@ -698,7 +698,11 @@ print(np.corrcoef(cutomer_trips_count, subscriber_trips_count))
 
 - After visually inspecting the pattern of variations in the number of trips from the bar chart, I had the feeling that there is a correlation between the changes in trip numbers between the user types. After calculating the correlation coefficient, it shows that there is a high negative correlation between the 2 user types (-0.97387795).
 
-<a id='conclusions'></a>
-## Conclusions
+<a id='future_enhancments'></a>
+## Future Enhancments
 
-
+- Using Pandas module to enhance the workflow and avoid reloding the data from CSV files, this will also be much more efficient.
+- Further investigation will be needed to understand the correlation. 
+- Another pattern that might be worth exploring is the significant variations from the average on Thursdays and Sundays.
+- Performing a statistical test or fitting the data to a model for making predictions.
+- There are also a lot of potential analyses that could be performed on the data which are not possible with only the data provided. For example, detailed location data has not been investigated. Where are the most commonly used docks? What are the most common routes? As another example, weather has potential to have a large impact on daily ridership. How much is ridership impacted when there is rain or snow? Are subscribers or customers affected more by changes in weather?
