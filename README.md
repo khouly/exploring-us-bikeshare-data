@@ -9,7 +9,7 @@
 - [Exploratory Data Analysis](#eda)
   - [Statistics](#statistics)
   - [Visualizations](#visualizations)
-- [Future Enhancments](#future_enhancments)
+- [Future Enhancements](#future_enhancements)
 
 <a id='intro'></a>
 ## Introduction
@@ -698,8 +698,8 @@ print(np.corrcoef(cutomer_trips_count, subscriber_trips_count))
 
 - After visually inspecting the pattern of variations in the number of trips from the bar chart, I had the feeling that there is a correlation between the changes in trip numbers between the user types. After calculating the correlation coefficient, it shows that there is a high negative correlation between the 2 user types (-0.97387795).
 
-<a id='future_enhancments'></a>
-## Future Enhancments
+<a id='future_enhancements'></a>
+## Future Enhancements
 
 - Using Pandas module to enhance the workflow and avoid reloding the data from CSV files, this will also be much more efficient.
 - Further investigation will be needed to understand the correlation. 
